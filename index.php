@@ -1,6 +1,6 @@
 <?php
 
-	require_once("controllers/register.controller.php");
+	require_once("controllers/auth.controller.php");
 
 
 ?>
