@@ -1,51 +1,63 @@
 <!DOCTYPE html>
 <html lang="ru">
- <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Imgbrd</title>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Imgbrd</title>
 
-    <link href="style/bootstrap.min.css" rel="stylesheet">
-    <link href="style/style.css" rel="stylesheet">
+	<link href="style/bootstrap.min.css" rel="stylesheet">
+	<link href="style/style.css" rel="stylesheet">
 
-  </head>
-  <body>
+</head>
+<body>
 
-  	<div id="whole">
-  		<div class="container-fluid header">
-  			 <div class="navbar navbar-fixed-top navbar-inverse">
-                
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="#">Logo</a>
-                </div>
+	<div class="container-fluid">
+		<div class="header">
+			<div class="navbar navbar-fixed-top navbar-inverse">
 
-                <div class="navbar-collapse collapse navbar-responsive-collapse">  
-                  <form class="navbar-form navbar-left">
-                    <input class="form-control col-lg-8" placeholder="Search OP" type="text">
-                  </form>
-                  <ul class="nav navbar-nav navbar-right" id="top-menu-buttons">
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Посты</a></li>
-                    <li><a href="#">Картинки</a></li>
-                    <li><a href="#">Вход</a></li>
-                  </ul>
-                </div>
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Logo</a>
+				</div>
 
-              </div>
-  		</div>
+				<div class="navbar-collapse collapse navbar-responsive-collapse">  
+					<form class="navbar-form navbar-left">
+						<input class="form-control col-lg-8" placeholder="Search OP" type="text">
+					</form>
+					<ul class="nav navbar-nav navbar-right" id="top-menu-buttons">
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Посты</a></li>
+						<li><a href="#">Картинки</a></li>
+						<li><a href="#">Выход</a></li>
+					</ul>
+				</div>
 
-  		
+			</div>
 
-  	</div>
+		</div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+		<div class="category-wrap row">
+			<div class="col-lg-1 col-md-1 col-xs-2 category-button">
+				<a href="#"><button type="button" class="btn btn-default">Японское</button></a>
+			</div>
+			<div class="col-lg-1 col-md-1 col-xs-2 category-button">
+				<a href="#"><button type="button" class="btn btn-default">Интересы</button></a>
+			</div>
+			<div class="col-lg-1 col-md-1 col-xs-2 category-button">
+				<a href="#"><button type="button" class="btn btn-default">NSFW</button></a>
+			</div>
+		</div>
+	</div>
 
-  </body>
+	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
 </html>

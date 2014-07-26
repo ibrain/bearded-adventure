@@ -1,5 +1,48 @@
+body{
+	padding-top: 50px;
+}
 
+.category-wrap{
+	background-color: #888;
+	height: 50px;
+}
+a:link {
+    color: #c9e5e9;
+    text-decoration: none;
+}
+a:visited {
+    color: #c9e5e9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8cd1db;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
 
 #top-menu-buttons{
 	padding-right: 10px;
+
+}
+
+.category-button{
+	padding-top: 8px;
+
+}
+.col-xs-2
+{
+	margin-right: 50px;
+}
+.col-md-1
+{
+	margin-right: 0px;
+}
+.col-lg-1
+{
+	margin-right: 0px;
 }
