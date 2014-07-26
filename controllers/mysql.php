@@ -13,7 +13,7 @@
 
 	function core_mysql_query($query_string)
 	{
-		$result = mysql_query($query_string);
+		$result = mysql_query($query_string) or die(mysql_error());
 		return $result;
 	}
 	
