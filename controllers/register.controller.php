@@ -73,6 +73,7 @@
  	<title></title>
  </head>
  <body>
+ 	<h1>Register unit test </h1>
  <form method="post">
 <input type="hidden" name="register" value="true" /><br/>
 <input type="text" name="username" /><br/>
@@ -82,4 +83,4 @@
 <input type="submit" />
  </form>
  </body>
- </html>
+ </html> 
