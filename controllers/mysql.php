@@ -14,6 +14,7 @@
 	function core_mysql_query($query_string)
 	{
 		$result = mysql_query($query_string);
+		return $result;
 	}
 	
 
