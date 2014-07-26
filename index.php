@@ -1,6 +1,6 @@
 <?php
 
-	require_once("controllers/auth.controller.php");
+	require_once("controllers/uploader.controller.php");
 
 
 ?>
