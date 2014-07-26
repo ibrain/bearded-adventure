@@ -6,6 +6,8 @@
 	function core_mysql_connect()
 	{
 		$connection = mysql_connect($mysql_host,$mysql_login,$mysql_password);
+		mysql_select_db($mysql_dbname);
+		mysql_query("SET names utf8;");
 		return $connection;
 	}
 
